@@ -33,14 +33,14 @@ console.log(anotherNum);
 
 
 const logger = function () {
-    console.log("Hello")
+    console.log("Hello");
 };
 logger();
 
-const calc = (a, b) => {
-    console.log('1')
+const calca = (a, b) => {
+    console.log('1');
     return a + b;
-}
+};
 
 const str = "test";
 
@@ -53,7 +53,7 @@ const arr = [1, 2, 4];
 console.log(str[2] = 'd');
 console.log(str);
 
-const fruit = "Some fruit"
+const fruit = "Some fruit";
 console.log(fruit.indexOf("q"));
 
 const logg = "Helo World";
@@ -61,8 +61,8 @@ console.log(logg.slice(5, 11));
 console.log(logg.substring(5, 11));
 console.log(logg.substr(6, 5));
 
-const num = 12.2;
-console.log(Math.round(num));
+const number = 12.2;
+console.log(Math.round(number));
 
 const test = "12.2px";
 console.log(parseInt(test));

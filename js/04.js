@@ -1,7 +1,7 @@
 'use strict';
 let numberOfFilms;
 
-function stert() {
+function start() {
     numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
     while (numberOfFilms == '' || numberOfFilms == null || isNaN(numberOfFilms)) {
